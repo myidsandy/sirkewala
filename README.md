@@ -1,6 +1,5 @@
 # sirkewala
 Sirkewala – an FMCG brand offering premium quality vinegar, cumin seeds, and whole spices.
-# Prepare updated HTML content with correct image paths
 updated_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -168,13 +167,6 @@ updated_html = """<!DOCTYPE html>
 </html>
 """
 
-# Save updated HTML to file
-output_html_path = "/mnt/data/sirkewala_updated/index.html"
-os.makedirs(os.path.dirname(output_html_path), exist_ok=True)
-with open(output_html_path, "w") as f:
-    f.write(updated_html)
-
-output_html_path
 
   
 
