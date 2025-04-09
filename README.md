@@ -1,6 +1,7 @@
 # sirkewala
 Sirkewala – an FMCG brand offering premium quality vinegar, cumin seeds, and whole spices.
-<!DOCTYPE html>
+# Prepare updated HTML content with correct image paths
+updated_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -121,19 +122,19 @@ Sirkewala – an FMCG brand offering premium quality vinegar, cumin seeds, and w
       <h2>Our Products</h2>
       <div class="products">
         <div class="card">
-          <img src="https://via.placeholder.com/250x200?text=Vinegar" alt="Vinegar" />
+          <img src="images/vinegar.jpeg" alt="Vinegar" />
           <h3>Natural Vinegar</h3>
           <p>Available in Apple Cider, Synthetic, and White variants.</p>
           <a class="buy-btn" href="https://wa.me/919919236519?text=I%20want%20to%20order%20Vinegar%20from%20Sirkewala">Buy Now</a>
         </div>
         <div class="card">
-          <img src="https://via.placeholder.com/250x200?text=Cumin+Seeds" alt="Cumin Seeds" />
+          <img src="images/cumin seed.jpeg" alt="Cumin Seeds" />
           <h3>Cumin Seeds (Jeera)</h3>
           <p>Premium quality, packed with aroma and flavor.</p>
           <a class="buy-btn" href="https://wa.me/919919236519?text=I%20want%20to%20order%20Cumin%20Seeds%20from%20Sirkewala">Buy Now</a>
         </div>
         <div class="card">
-          <img src="https://via.placeholder.com/250x200?text=Whole+Spices" alt="Whole Spices" />
+          <img src="images/whole spice.jpeg" alt="Whole Spices" />
           <h3>Whole Spices</h3>
           <p>Clove, Cinnamon, Cardamom, and more – handpicked and sun-dried.</p>
           <a class="buy-btn" href="https://wa.me/919919236519?text=I%20want%20to%20order%20Whole%20Spices%20from%20Sirkewala">Buy Now</a>
@@ -165,4 +166,16 @@ Sirkewala – an FMCG brand offering premium quality vinegar, cumin seeds, and w
   </div>
 </body>
 </html>
+"""
 
+# Save updated HTML to file
+output_html_path = "/mnt/data/sirkewala_updated/index.html"
+os.makedirs(os.path.dirname(output_html_path), exist_ok=True)
+with open(output_html_path, "w") as f:
+    f.write(updated_html)
+
+output_html_path
+
+  
+
+ 
